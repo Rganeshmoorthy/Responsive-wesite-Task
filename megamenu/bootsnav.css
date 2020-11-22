@@ -1,0 +1,100 @@
+nav.bootsnav .dropdown.megamenu-fw {
+    position: static;
+}
+
+nav.bootsnav .megamenu-fw .dropdown-menu {
+    left: auto;
+}
+
+nav.bootsnav .megamenu-content {
+    padding: 15px;
+    width: 100% !important;
+}
+nav.bootsnav .dropdown.megamenu-fw .dropdown-menu {
+    left: 0;
+    right: 0;
+}
+
+ul.cart-list{
+    padding: 0 !important;
+    width: 250px !important;
+}
+
+ul.cart-list > li{
+    position: relative;
+    border-bottom: solid 1px #efefef;
+    padding: 15px 15px 23px 15px !important;
+}
+
+ul.cart-list > li > a.photo{
+    padding: 0 !important;
+    margin-right: 15px;
+    float: left;
+    display: block;
+    width: 50px;
+    height: 50px;
+    left: 15px;
+    top: 15px;
+}
+
+ul.cart-list > li > h6{
+    margin: 0;
+}
+  
+    nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
+        font-family: 'FontAwesome';
+        content: "\f0d7";
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+    
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover,
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover{
+        background-color: transparent;
+    }
+    
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
+        padding: 10px 15px;
+        border-bottom: solid 1px #eee;
+        color: #6f6f6f;
+    }
+    
+    nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a{
+        text-align: right;
+    }
+    
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu li.dropdown > a.dropdown-toggle:before{
+        font-family: 'FontAwesome';
+        float: right;
+        content: "\f105";
+        margin-top: 0;
+    }
+    
+    nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li.dropdown > a.dropdown-toggle:before{
+        font-family: 'FontAwesome';
+        float: left;
+        content: "\f104";
+        margin-top: 0;
+    }
+    
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu ul.dropdown-menu{
+        top: -3px;
+    }
+    
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content{
+        padding: 0 15px !important;
+    }
+    
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content > li{
+       padding: 25px 0 20px;
+    }
+    
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .col-menu{
+        padding: 0 30px;
+        margin: 0 -0.5px;
+        border-left: solid 1px #f0f0f0;
+        border-right: solid 1px #f0f0f0;
+    }
+       
+    
+ 
